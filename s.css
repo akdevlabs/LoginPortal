@@ -212,7 +212,7 @@ to {
   
    @media(max-width:320px){
   .log-in{
-    margin: auto;
+    align-items: center;
     font-size: 25px;
   }
   .logoALC{
