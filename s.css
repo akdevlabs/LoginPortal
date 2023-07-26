@@ -190,7 +190,7 @@ to {
 
   @media(max-width:425px){
   .log-in{
-    margin-left: 25px;
+    margin: auto;
     font-size: 25px;
   }
   .logoALC{
@@ -201,7 +201,7 @@ to {
 
    @media(max-width:375px){
   .log-in{
-    margin-left: 65px;
+    margin: auto;
     font-size: 25px;
   }
   .logoALC{
@@ -212,7 +212,7 @@ to {
   
    @media(max-width:320px){
   .log-in{
-    margin-left:140px;
+    margin: auto;
     font-size: 25px;
   }
   .logoALC{
