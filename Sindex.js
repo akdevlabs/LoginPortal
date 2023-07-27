@@ -41,8 +41,7 @@ function userName(){
     }else if (val === "202306"){
       userPassword()
     }else {
-      alertU.innerHTML="Wrong Username or Password"
-      
+      alertU.innerHTML="Wrong Username or Password" 
     }
   }
   
@@ -50,25 +49,26 @@ function userName(){
     let valp = inputP.value
       console.log(valp)
       if (valp === "6122023" ){
-        clear()
-
-  document.getElementById('dashbord').style.display='block';
+        pushWeb()
       }else {
         alertU.innerHTML="Wrong Username or Password"
       }
     }
 
+    function addNewArray(){
+      newArr.push("202301");
+      return newArr;
+   }
+   //calling a function
+   addNewArray(newArr[" "])
+    
 
-    function clear(){
-      const myDiv = document.getElementById("log-in-portal")
-      const parent = myDiv.parentElement;
-      parent.removeChild(myDiv);
-      console.log("clear")
-     
+
+
+
+    function pushWeb() {
+      location.replace("https://sage-lily-3b571d.netlify.app");
     }
-
-
-
-
+  
 
  
