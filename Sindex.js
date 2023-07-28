@@ -49,7 +49,7 @@ function userName(){
     let valp = inputP.value
       console.log(valp)
       if (valp === "6122023" ){
-        pushWeb()
+        findUsername()
       }else {
         alertU.innerHTML="Wrong Username or Password"
       }
@@ -58,7 +58,7 @@ function userName(){
     function findUsername(){
       let val = inputEl.value
       if (val === "202301" ){
-        return("202301")
+        location.replace("https://sage-lily-3b571d.netlify.app?greeting=202301" )
       }else if (val ==="202302"){
         return("202302" )
       }else if (val ==="202303"){
