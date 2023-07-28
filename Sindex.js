@@ -77,14 +77,12 @@ function userName(){
 
 
     function pushWeb() {
-      location.replace("https://sage-lily-3b571d.netlify.app");
+      location.replace("https://sage-lily-3b571d.netlify.app" );
     }
   
 
     function passvalues(){
       let name = findUsername()
       localStorage.setItem("textvalues",name)
-      return false
    }
 
-document.getElementById("result").innerHTML=localStorage.getItem("textvalues")
