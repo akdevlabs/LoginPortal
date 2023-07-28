@@ -30,15 +30,15 @@ function userName(){
   let val = inputEl.value
     if (val === "202301" ){
       userPassword()
-    }else if (val === "202302"){
+    }else if (val ==="202302"){
       userPassword()
-    }else if (val === "202303"){
+    }else if (val ==="202303"){
       userPassword()
-    }else if (val === "202304"){
+    }else if (val ==="202304"){
       userPassword()
-    }else if (val === "202305"){
+    }else if (val ==="202305"){
       userPassword()
-    }else if (val === "202306"){
+    }else if (val ==="202306"){
       userPassword()
     }else {
       alertU.innerHTML="Wrong Username or Password" 
@@ -55,13 +55,23 @@ function userName(){
       }
     }
 
-    function addNewArray(){
-      newArr.push("202301");
-      return newArr;
+    function findUsername(){
+      let val = inputEl.value
+      if (val === "202301" ){
+        return("202301")
+      }else if (val ==="202302"){
+        return("202302" )
+      }else if (val ==="202303"){
+        return("202303" )
+      }else if (val ==="202304"){
+        return("202304" )
+      }else if (val ==="202305"){
+        return("202305" )
+      }else if (val ==="202306"){
+        return("202306" )
+      }
    }
-   //calling a function
-   addNewArray(newArr[" "])
-    
+
 
 
 
@@ -71,4 +81,10 @@ function userName(){
     }
   
 
- 
+    function passvalues(){
+      let name = findUsername()
+      localStorage.setItem("textvalues",name)
+      return false
+   }
+
+   document.getElementById("result").innerHTML=localStorage.getItem("textvalues")
