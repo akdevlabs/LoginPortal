@@ -77,7 +77,7 @@ function userName(){
 
 
     function pushWeb() {
-      location.replace("https://sage-lily-3b571d.netlify.app?greeting=hello" );
+      location.replace("https://sage-lily-3b571d.netlify.app?greeting=findUsername()" );
     }
   
 
