@@ -22,7 +22,7 @@ const alertP = document.getElementById("alertP")
 
 subBtn.addEventListener("click", function() {
   userName()
-
+  passvalues()
                                        })
 
 
@@ -87,4 +87,4 @@ function userName(){
       return false
    }
 
-   document.getElementById("result").innerHTML=localStorage.getItem("textvalues")
+document.getElementById("result").innerHTML=localStorage.getItem("textvalues")
